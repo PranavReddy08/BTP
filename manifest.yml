@@ -1,0 +1,8 @@
+applications:
+- name: form-app
+  memory: 256M
+  instances: 1
+  buildpacks:
+    - nodejs_buildpack
+  command: npm start
+  random-route: true
